@@ -12,7 +12,7 @@ const NoteState = (props)=>{
     //Get all Notes
     const getNotes = async ()=>{
         //API Call
-        const response = await fetch(`${host}/api/notes/fetchallnotes`, {
+        const response = await fetch(`https://inotebook-api-e9qe.onrender.com/api/notes/fetchallnotes`, {
            method: "GET", 
            headers: {
              "Content-Type": "application/json",
