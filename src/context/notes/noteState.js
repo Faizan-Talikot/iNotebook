@@ -6,7 +6,7 @@ import noteContext from "./noteContext";
 const NoteState = (props)=>{
     const host = "https://inotebook-api-e9qe.onrender.com"
      
-    const notesInitial = []
+    const notesInitial = [{}]
     const [notes, setNotes] = useState(notesInitial);
 
     //Get all Notes
