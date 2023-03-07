@@ -8,7 +8,7 @@ const Signup = (props) => {
     e.preventDefault();
     if (credentials.password === credentials.cpassword) {
       const { name, email, password } = credentials;
-      const response = await fetch("http://localhost:5000/api/auth/createuser", {
+      const response = await fetch("https://inotebook-api-e9qe.onrender.com/api/auth/createuser", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
