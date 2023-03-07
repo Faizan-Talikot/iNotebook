@@ -18,13 +18,10 @@ const NoteState = (props)=>{
              "Content-Type": "application/json",
              "auth-token": localStorage.getItem('token')
            }
-         }).then(async function (response){
+         }).then(async function (){
            const json = await response.json();
            console.log(json)
-          
-           
-         }).then(function(json){
-          setNotes(json); 
+           setNotes(json); 
          })
          .catch(function(err){
           console.log("ye sab error")
