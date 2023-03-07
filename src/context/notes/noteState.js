@@ -20,9 +20,13 @@ const NoteState = (props)=>{
            }
          }).then(async function (response){
            const json = await response.json();
-           console.log(json);
-           setNotes(json);
-         }).catch(function(err){
+           console.log(json)
+          
+           
+         }).then(function(){
+          setNotes(json); 
+         })
+         .catch(function(err){
           console.log("ye sab error")
           console.log(err);
          })
