@@ -23,7 +23,7 @@ const NoteState = (props)=>{
            console.log(json)
           
            
-         }).then(function(){
+         }).then(function(json){
           setNotes(json); 
          })
          .catch(function(err){
