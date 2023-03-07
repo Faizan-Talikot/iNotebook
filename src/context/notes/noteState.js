@@ -18,7 +18,7 @@ const NoteState = (props)=>{
              "Content-Type": "application/json",
              "auth-token": localStorage.getItem('token')
            }
-         }).then(async function (){
+         }).then(async function (response){
            const json = await response.json();
            console.log(json);
            setNotes(json);
