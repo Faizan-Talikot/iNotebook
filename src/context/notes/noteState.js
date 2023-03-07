@@ -23,10 +23,7 @@ const NoteState = (props)=>{
            console.log(json)
            setNotes(json)
          
-         .catch(function(err){
-          console.log("ye sab error")
-          console.log(err);
-         })
+        
        }
 
     // Add a Note
