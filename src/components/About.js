@@ -46,7 +46,7 @@ const About = (props) => {
         <h1 className="text-center">About Us</h1>
         <hr style={{ width: "26%", marginLeft: "37%" }} />
         <p className="text-center fw-semibold">iNotebook is a solution for to you to save your note anytime and anywhere. In today's busy world we dont have time to carry notebooks and pen to write out small notes.iNotebook comes handy in such situation.It provides you interface to save your notes easily and securly.iNotebook is a CRUD application, it means your Create, Read, Update and Delete your notes. We provide complete security and your notes can be accessed by only you and not any third party. We use encryption method to store your password and hence your identity is save with us. So login to iNotebook and create your notes now!!!</p>
-        <div className="container d-flex justify-content-between my-5" style={{ padding: "0" }}>
+        <div className="container d-flex justify-content-between my-5" style={{ padding: "0" }} id="aboutcard">
           <div className="card" style={{ width: "15rem",color: props.mode ==="light"?"black":"black" }}>
             <img src={image1} className="card-img-top" alt="..." />
             <div className="card-body">
