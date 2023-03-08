@@ -18,7 +18,7 @@ i{
 
 @media (min-width: 576px) { 
   #aboutcard{
-    flex-direction: "column";
+    flex-direction: column;
   }
   .card{
      width: auto;
