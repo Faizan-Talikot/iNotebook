@@ -15,3 +15,12 @@ code {
 i{
   cursor: pointer;
 }
+
+@media (max-width: 576px) { 
+  #aboutcard{
+    flex-direction: "column";
+  }
+  .card{
+     width: auto;
+  }
+ }
