@@ -47,11 +47,11 @@ function App() {
             <Alert alert={alert}/>
           <div className="container" id="changecolor">
             <Routes>
-              <Route  path=" https://inotebook-n8it.onrender.com/" element={<Landing showAlert = {showAlert} mode= {mode}/>} />
-              <Route  path=" https://inotebook-n8it.onrender.com/home" element={<Home showAlert = {showAlert} mode= {mode}/>} />
-              <Route  path=" https://inotebook-n8it.onrender.com/about" element={<About showAlert = {showAlert} mode= {mode}/>} />
-              <Route  path=" https://inotebook-n8it.onrender.com/login" element={<Login showAlert = {showAlert} mode= {mode}/>} />
-              <Route  path=" https://inotebook-n8it.onrender.com/signup" element={<Signup showAlert = {showAlert} mode= {mode}/>} />
+              <Route exact path="/" element={<Landing showAlert = {showAlert} mode= {mode}/>} />
+              <Route exact path="/home" element={<Home showAlert = {showAlert} mode= {mode}/>} />
+              <Route exact path="/about" element={<About showAlert = {showAlert} mode= {mode}/>} />
+              <Route exact path="/login" element={<Login showAlert = {showAlert} mode= {mode}/>} />
+              <Route exact path="/signup" element={<Signup showAlert = {showAlert} mode= {mode}/>} />
             </Routes>
           </div>
         </Router>
