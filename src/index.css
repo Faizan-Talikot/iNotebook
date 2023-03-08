@@ -19,8 +19,10 @@ i{
 @media (max-width: 900px) { 
   #aboutcard{
     flex-direction: column;
+    align-items: center;
   }
   .card{
      width: auto;
+     margin-bottom: 20px;
   }
  }
