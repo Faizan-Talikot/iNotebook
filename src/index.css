@@ -16,7 +16,7 @@ i{
   cursor: pointer;
 }
 
-@media (max-width: 576px) { 
+@media (min-width: 576px) { 
   #aboutcard{
     flex-direction: "column";
   }
